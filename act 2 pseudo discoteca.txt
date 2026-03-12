@@ -1,0 +1,27 @@
+inicio
+
+
+definir:
+edad
+sexo
+
+imprimir: ingrese su edad
+
+ leer edad
+
+si edad =>18  entonces
+
+    imprimir: ingrese el sexo
+
+ leer sexo
+
+    si sexo =femenino entonces
+     imprimir: acceso permitido
+
+    sino 
+     imprimir: acceso denegado
+	
+sino
+   imprimir :acceso denegado
+	
+Fin
