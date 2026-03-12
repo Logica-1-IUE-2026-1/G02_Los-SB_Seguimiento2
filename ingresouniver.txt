@@ -1,0 +1,11 @@
+Inicio
+Definir rol como cadena de texto
+Imprimir (seleccione rol de la persona)"escriba en mayusculas el rol de la persona"
+Leer rol
+Si rol == ("DOCENTE") entonces
+    Mostrar (ingreso permitido)
+    sino, si rol == ("ESTUDIANTE") entonces
+     Mostrar (ingreso permitido)
+Si no:
+Mostrar "denegar ingreso"
+fin
