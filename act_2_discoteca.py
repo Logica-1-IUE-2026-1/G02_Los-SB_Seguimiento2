@@ -1,43 +1,17 @@
-resultado = (5 + 3) * 2
+""" Este codigo es para validar el acceso a una discoteca,
+ pregunta la edad y el sexo de la persona, si cumple las condiciones
+ arroja el mensaje "acceso permitido", 
+ si no cumple con las condiciones el mesnaje será "acceso denegado". """
 
-print(resultado)
+edad = int(input("ingrese su edad: "))
 
-i = 0
-while i < 5:
+if edad >= 18:
+    print("acceso permitido")
 
-    print (i)
-
-    i += 1
-
-    #asignar las variables según el tipo de dato
-    a = float (3)
-    b = int (3)
-    c = str (3)
-
-    #IMprimir en pantalla el resultado acorde a las variables asignadas
-    print (f'el 3 en dato flotante es: {a}')
-    print (f'el 3 en dato enetro es: {b}')
-    print (f'el 3 en dato cadena es: {c}')
-
-    #sumar c
-    d = b+b
-
-
-    #imprimir suma en pantalla
-    print(f'la suma es: {d}')
-
-    ## second
-    # asignar de varibale según el tipo de dato
-
-    a = [1, 2, 3, 4, 5]
-    b = (1, 2, 3)
-    c = {1, 2, 3, 4}
-    d = {'nombre' : 'juan', 'edad' : 25}
-
-    # imprimir en pantalla el resultado acorde a las variables asignadas
-    print(f'una lista es: {a}')
-    print(f'una tupla es: {b}')
-    print(f'un conjunto es: {c}')
-    print(f'un diccionario es: {d}')
-
-
+    sexo = int(input("ingrese el sexo: "))
+    if sexo == "femenino":
+        print("acceso permitido")
+    else:
+        print("acceso denegado")
+else:
+    print("acceso denegado")
