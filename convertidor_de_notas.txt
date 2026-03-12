@@ -1,0 +1,16 @@
+INICIO
+    definir nota como flotante
+    imprimir: "Ingrese la nota actual del estudiante con punto decimal: "
+    leer nota
+
+    si nota >= 4.5 entonces
+        imprimir: "la calificación es: A"
+    sino, si nota >= 3.5 entonces
+        imprimir("La calificación es: B")
+    sino, si nota >= 3: 
+        imprimir("La calificación es: C")
+    sino, si nota >= 2:
+        imprimir("La calificación es: D")
+    sino:
+        imprimir("La calificación es: E")
+FIN
